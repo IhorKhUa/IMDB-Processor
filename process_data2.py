@@ -35,7 +35,9 @@ try:
     print(f"Найдено {len(movies_df)} фильмов.")
 
     # Сортировка по рейтингу и выбор ТОП-30
-    top_movies_df = movies_df.sort_values(by='averageRating', ascending=False).head(30)
+    top_movies_df = movies_df.sort_values(['averageRating', 'numVotes'], ascending=[False, False]).head(30)
+    #top_movies_df = movies_df.sort_values(['averageRating', 'numVotes'], ascending=[False, False]).head(30)
+
     print("ТОП-30 фильмов успешно отобраны.")
 
     # Фильтрация эпизодов (titleType == 'tvEpisode')
