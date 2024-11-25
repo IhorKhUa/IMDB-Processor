@@ -1,3 +1,6 @@
+# Связанная задача: IMDB-1
+# Подробнее: https://github.com/IhorKhUa/IMDB-Processor/issues/8
+
 import os
 import pandas as pd
 
