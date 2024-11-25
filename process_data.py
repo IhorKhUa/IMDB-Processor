@@ -1,5 +1,5 @@
 # Связанная задача: IMDB-1
-# Подробнее: https://github.com/<ваш_репозиторий>/issues/1
+# Подробнее: https://github.com/<ваш_репозиторий>/issues/8
 
 import os
 import pandas as pd
