@@ -1,5 +1,5 @@
 # Связанная задача: IMDB-2
-# Подробнее: https://github.com/<ваш_репозиторий>/issues/2
+# Подробнее: https://github.com/IhorKhUa/IMDB-Processor/issues/2
 ##
 import os
 import pandas as pd
