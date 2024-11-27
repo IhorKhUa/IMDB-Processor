@@ -22,8 +22,16 @@ else:
 #ratings_file = os.path.join(bronze_dir, "title.ratings.tsv")
 #basics_file = os.path.join(bronze_dir, "title.basics.tsv")
 
-ratings_file = "/home/ihor/PycharmProjects/extract_files/bronze/title.ratings.tsv"
-basics_file = "/home/ihor/PycharmProjects/extract_files/bronze/title.basics.tsv"
+# Получаем абсолютный путь к директории, где находится текущий скрипт
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Формируем абсолютные пути
+bronze_dir = os.path.abspath(os.path.join(script_dir, "../bronze"))
+ratings_file = os.path.join(bronze_dir, "title.ratings.tsv")
+basics_file = os.path.join(bronze_dir, "title.basics.tsv")
+
+#ratings_file = "/home/ihor/PycharmProjects/extract_files/bronze/title.ratings.tsv"
+#basics_file = "/home/ihor/PycharmProjects/extract_files/bronze/title.basics.tsv"
 
 
 try:
