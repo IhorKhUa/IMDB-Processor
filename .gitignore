@@ -16,3 +16,5 @@ gold/
 __pycache__/
 .env
 
+
+Raw/title_basics.tsv
